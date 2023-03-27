@@ -1,0 +1,19 @@
+.login { width: 100vw; height: 100vh; display: flex; justify-content: center; background-color: #FDFDFD;
+    & .contentLogin{ display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+        & .panel{ min-width: 360px; padding: 68.53px 30px 79px; border-radius: 10px; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08); 
+            & .acessaForm{ margin-top: 60px;
+                & h2{ margin-bottom: 60px; }
+                & div{ display: flex; flex-direction: column;
+                    & label{ color: #888888; font-size: 16px; font-weight: bold; text-align: left; }
+                    & input{ border: none; border: 1px solid #838FA6; font-size: 20px; height: 46.94px; border-radius: 5px;
+                        &::placeholder{ color: var(--cinzaMedio) }
+                        &:last-child{ margin-top: 28.16px; }
+                    }
+                }
+                & .btn.entrar{ height: 50px; margin-top: 33.41px; font-size: 18px; font-weight: bold; text-transform: uppercase;
+                    color: var(--branco); background-color: var(--vermelho); width: 100%;
+                }
+            }
+        }
+    }
+}
